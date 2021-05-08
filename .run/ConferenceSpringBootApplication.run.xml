@@ -2,7 +2,6 @@
   <configuration default="false" name="ConferenceSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
     <module name="conference-spring-boot.main" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="com.mikhalkou.learn.springboot1.conferencespringboot.ConferenceSpringBootApplication" />
-    <option name="VM_PARAMETERS" value="-Dspring.profiles.active=prod" />
     <option name="ALTERNATIVE_JRE_PATH" />
     <option name="SHORTEN_COMMAND_LINE" value="NONE" />
     <envs>
