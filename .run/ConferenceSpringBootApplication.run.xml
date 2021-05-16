@@ -6,6 +6,8 @@
     <option name="SHORTEN_COMMAND_LINE" value="NONE" />
     <envs>
       <env name="DB_URL" value="jdbc:postgresql://localhost:5432/conference_app" />
+      <env name="DB_USER" value="postgres" />
+      <env name="DB_PASS" value="Welcome" />
     </envs>
     <method v="2">
       <option name="Make" enabled="true" />
