@@ -23,8 +23,10 @@ public class PersistenceConfiguration {
         String dbUrl = System.getenv("DB_URL");
         logger.info("Initializing persistence with {}", dbUrl);
         builder.url(dbUrl);
-        builder.password(password);
-        builder.username(username);
+        if (!username.isBlank()) {
+            builder.password(password);
+            builder.username(username);
+        }
         return builder.build();
     }
 }
