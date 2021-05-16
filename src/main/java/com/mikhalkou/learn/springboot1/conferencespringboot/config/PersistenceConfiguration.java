@@ -20,7 +20,7 @@ public class PersistenceConfiguration {
     @Bean
     public DataSource dataSource() {
         DataSourceBuilder<?> builder = DataSourceBuilder.create();
-        String dbUrl = System.getenv("DB_URL");
+        String dbUrl = System.getenv("JDBC_DATABASE_URL");
         logger.info("Initializing persistence with {}", dbUrl);
         builder.url(dbUrl);
         if (!username.isBlank()) {
